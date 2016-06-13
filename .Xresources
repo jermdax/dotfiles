@@ -1,9 +1,10 @@
+! This is from "Code Cast"s youtube videos on urxvt
 Xcursor.theme: DMZ-White
 
-URxvt.font:                xft:PragmataPro:pixelsize=16
-URxvt.boldFont:            xft:PragmataPro:pixelsize=16:bold
-URxvt.italicFont:          xft:PragmataPro:pixelsize=16:italic
-URxvt.boldItalicFont:      xft:PragmataPro:pixelsize=16:bold:italic
+URxvt.font:                xft:Droid\ Sans\ Mono\ for\ PowerLine:pixelsize=10,style=regular
+URxvt.boldFont:            xft:Droid\ Sans\ Mono\ for\ PowerLine:pixelsize=8:bold
+URxvt.italicFont:          xft:Droid\ Sans\ Mono\ for\ PowerLine:pixelsize=8:italic
+URxvt.boldItalicFont:      xft:Droid\ Sans\ Mono\ for\ PowerLine:pixelsize=8:bold:italic
 URxvt.letterSpace:         -1
 
 *background: #232C31
@@ -36,8 +37,6 @@ URxvt.letterSpace:         -1
 URxvt.internalBorder:      0
 URxvt.externalBorder:      0
 
-URxvt.scrollBar:           false
-
 URxvt*fading:              30
 
 URxvt.perl-ext-common:     matcher,resize-font,foo
@@ -46,6 +45,8 @@ URxvt.keysym.F11:          perl:fullscreen:switch
 
 URxvt.resize-font.smaller: C-Down
 URxvt.resize-font.bigger:  C-Up
+
+URxvt.scrollBar:           false
 
 URxvt.url-launcher:        /usr/bin/chromium
 URxvt.keysym.M-Delete:     perl:matcher:list
